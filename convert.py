@@ -56,6 +56,7 @@ def unique_config_sections(config_file):
 
 # %%
 def _main(args):
+    print(configp_path)
     config_path = os.path.expanduser(args.config_path)
     weights_path = os.path.expanduser(args.weights_path)
     print(config_path)
